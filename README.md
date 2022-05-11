@@ -39,10 +39,28 @@ Individual components of the system operational with connectivity partially esta
 ## Frontend (WP5 & WP6)
 Text Descriptions
 ### DCL
+"DC Lab:
+- search result list view
+- detail view (shared component w/ VA studio)
+- basic editing
+- Redux store
+- RTK Query shared frontend network module (handles requests to grlc)
 
 ### VAS
+"Data views:
+- time view (sets)
+- geo view (sets)
+- detail view (shared component w/ DCL)"
+
+Coordinated views:
+- list-timeline-map highlighting
+
+"Visual querying:
+- query for persons based on attribute constraints (no relation constraints yet)
+- define corresponding grlc endpoints"
 
 ### STS=STC+STV
-
+- Definition of GUI structure for storytelling editor
+- Development of clickable prototype (Fluxguide - online?)
 ## Next Steps
 ...
