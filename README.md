@@ -13,6 +13,7 @@ Individual components of the system operational with connectivity partially esta
 
 ## WP4?
 - Martin's Work?
+- Performancer: Model selection & comparison
 
 ## Backend - Frontend Contract
 - grlc > endpoints
