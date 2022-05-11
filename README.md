@@ -12,7 +12,7 @@ Individual components of the system operational with connectivity partially esta
 - ...
 
 ## WP4?
-
+- Martin's Work?
 
 ## Backend - Frontend Contract
 - grlc > endpoints
