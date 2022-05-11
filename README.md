@@ -3,7 +3,7 @@ InTaVia Milestone 3 Documentation
 
 ## Backend
 
-## Backend - Frontend
+## Backend - Frontend Connection
 
 ## Frontend
 
