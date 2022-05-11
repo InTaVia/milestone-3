@@ -7,18 +7,31 @@ Individual components of the system operational with connectivity partially esta
 
 **_Please create releases of the GitHub repositories and link here_**
 
-## Backend (WP2 & 3)
-- ingestion pipeline
-- blazegraph
-- ...
+## WP2
+**Ingestion workflow**
+-  Finland (Aalto / UH)
+- Austria (OeAW)
+- BiographyNet (VU)
+- Slovenia >> talk to Joh
 
-## WP4?
-- Martin's Work?
+**InTaVia graph-related workflows**
+- v1
+- v2
+- v3
+
+**JSON API**
+2 endpoints (grlc) / object type
+
+## WP3
+
+**Conversion Pipeline APIS data**
+**Ingestion pipeline**
+**Basic enrichment pipeline for CH data**
+**API definitions**
+
+## WP4
+- Martin's Work > Deliverable 4.2
 - Performancer: Model selection & comparison
-
-## Backend - Frontend Contract
-- grlc > endpoints
-
 
 ## Frontend (WP5 & WP6)
 Text Descriptions
