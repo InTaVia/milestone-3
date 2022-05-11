@@ -25,8 +25,11 @@ Individual components of the system operational with connectivity partially esta
 ## WP3
 
 **Conversion Pipeline APIS data**
+
 **Ingestion pipeline**
+
 **Basic enrichment pipeline for CH data**
+
 **API definitions**
 
 ## WP4
