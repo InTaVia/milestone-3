@@ -42,9 +42,9 @@ Text Descriptions
 "DC Lab:
 - search result list view
 - detail view (shared component w/ VA studio)
-- basic editing
+- basic editing (Name, Description, Event types & dates)
 - Redux store
-- RTK Query shared frontend network module (handles requests to grlc)
+- RTK Query shared frontend network module (handles requests to grlc - see above)
 
 ### VAS
 "Data views:
