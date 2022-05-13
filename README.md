@@ -54,7 +54,7 @@ The prototype implements aspects of the three top-level components (Data Curatio
 - Keyword search and list view of search results: [https://intavia.acdh-dev.oeaw.ac.at/search](https://intavia.acdh-dev.oeaw.ac.at/search)
 - Detail view of entities: e.g., [https://intavia.acdh-dev.oeaw.ac.at/person/876859d3-dee8-468d-9c61-a29e97ef478a](https://intavia.acdh-dev.oeaw.ac.at/person/876859d3-dee8-468d-9c61-a29e97ef478a)
 - Basic editing capability of person entities (name, description, event types & dates) - click edit on the detail view page.
-- Shared glboal Redux store that can be accessed by all components 
+- Shared global Redux store that can be accessed by all components 
 - Shared frontend network module using RTKQuery (handles deduplication of requests to data endpoints and caching of results)
 
 ### VA studio
