@@ -10,19 +10,32 @@ Individual components of the system operational with connectivity partially esta
 
 ## WP2
 
-**Ingestion workflow**
--  Finland (Aalto / UH)
+### Ingestion workflows / source datasets
+
+The repository https://github.com/InTaVia/source-dataset-conversion contains the milestone 3 versions of the following source datasets converted into the IDM data model:
+
+- Finland (Aalto / UH)
 - Austria (OeAW)
 - BiographyNet (VU)
-- Slovenia >> talk to Joh
 
-**InTaVia graph-related workflows**
+and the conversion scripts for the datasets:
+
+- Austria (OeAW)
+- BiographyNet (VU)
+
+### JSON API
+
+The repository https://github.com/InTaVia/grlc contains the milestone 3 version of the grlc software that is used for providing the JSON API.
+
+The repository https://github.com/InTaVia/grlc_sparql contains the milestone 3 version of the JSON API definitions, namely the following APIs:
+
+* Generic entity search
+* Person history
+
+**InTaVia graph-related workflows?**
 - v1
 - v2
 - v3
-
-**JSON API**
-2 endpoints (grlc) / object type
 
 ## WP3
 
