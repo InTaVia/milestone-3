@@ -82,8 +82,12 @@ Visual querying:
 
 ### ST suite = ST creator + ST viewer
 
-- The ST creator implements an interactive user interface allowing to generate and import slide-based stories. The prototype can depict persons’ life-events on a map and provides annotation capabilities (i.e., images and text): [https://intavia.acdh-dev.oeaw.ac.at/storycreator](https://intavia.acdh-dev.oeaw.ac.at/storycreator)
-- The single event slides for the **"Life of Paolo Vergerio"** can be imported through the text editor using the content of this [file](https://drive.google.com/file/d/1SSqNUxFXwucLqy2qHig4TAgyPweHNRJd/view?usp=sharing).
+- The ST creator implements an interactive user interface allowing to generate and import slide-based stories. The prototype can depict persons’ life-events on a map and provides annotation capabilities (i.e., images and text): [https://intavia.acdh-dev.oeaw.ac.at/storycreator](https://intavia.acdh-dev.oeaw.ac.at/storycreator) 
+    - Stories Overview (create and delete stories)
+    - Story Flow (create, layout and delete slides per drag and drop)
+    - Slide Editor (create, edit, layout and delete map, images and text per drag and drop)
+    - Text Mode (edit or upload the whole story via textarea)
+- The single event slides for the **"Life of Paolo Vergerio"** can be imported through the text editor using the content of json this [file](https://drive.google.com/file/d/1SSqNUxFXwucLqy2qHig4TAgyPweHNRJd/view?usp=sharing).
  - A clickable Adobe XD prototype of the ST viewer is available online: [ST Viewer Prototype](https://xd.adobe.com/view/b3de8bf3-1e43-434a-b06f-a99939eb2e6e-e68d)
     - The prototype tells the story **"Life of Paolo Vergerio"** primarily based on a map/timeline visualization featuring annotations, images, quiz and timebased visualizations. 
     - All screens including a selection of desktop views are available as PNG: [Screens ST viewer [.zip]](https://www.dropbox.com/sh/nvn626iro0yz1g7/AAD8mhhJHn79GT3mC-C-VNxaa?dl=1)
