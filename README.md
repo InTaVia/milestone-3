@@ -1,6 +1,6 @@
 # InTaVia Milestone-3
 
-InTaVia Milestone 3 Documentation - Basic Operational Sytem 
+InTaVia Milestone 3 Documentation - Basic Operational System 
 
 Individual components of the system operational with connectivity partially established and ready for evaluation by WP7.
 
