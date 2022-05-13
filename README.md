@@ -61,12 +61,12 @@ The prototype implements aspects of the three top-level components (Data Curatio
 
 Data views:
 - Timeline view showing a set of person entities with selected life events (e.g. birth, death, lived): [https://intavia.acdh-dev.oeaw.ac.at/timeline](https://intavia.acdh-dev.oeaw.ac.at/timeline)
-- A geographic map view showing localized life events (i.e., birth and death) connected with a line: [https://intavia.acdh-dev.oeaw.ac.at/geomap](https://intavia.acdh-dev.oeaw.ac.at/geomap)
+- A geographic map view showing localized life events (i.e. birth and death) connected with a line: [https://intavia.acdh-dev.oeaw.ac.at/geomap](https://intavia.acdh-dev.oeaw.ac.at/geomap)
 
 Coordinated views:
 - Multiple views integrated on a single page are shown here: [https://intavia.acdh-dev.oeaw.ac.at/coordination](https://intavia.acdh-dev.oeaw.ac.at/coordination)
-- The example coordinates a entity list view, a timeline and a map showing perons and their life events throuhg mouseover highlighting (red colour).
-- Currently, applies only to the map, a dropdown menue allows to filter the depicted events. If more than one event type is selected, the localized events are connected with lines in chronological order.
+- The example coordinates an entity list view, a timeline and a map showing persons and their life events via mouseover highlighting (red colour).
+- Currently, applies only to the map, a dropdown menu allows to filter the depicted events. If more than one event type is selected, the localized events are connected with lines in chronological order.
 
 Visual querying:
 - A workspace to visually query for persons based on attribute constraints including name and date of birth and death: [https://intavia.acdh-dev.oeaw.ac.at/visual-querying](https://intavia.acdh-dev.oeaw.ac.at/visual-querying)
