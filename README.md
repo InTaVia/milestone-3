@@ -8,20 +8,24 @@ Individual components of the system operational with connectivity partially esta
 
 **_Please create releases of the GitHub repositories and link here_**
 
-## WP2
+## Backend (WP2 & 3)
+
+### Datamodel InTaVia IDM-RDF
+
+The repository https://github.com/InTaVia/idm-rdf comtains the [IDM-RDF](https://raw.githubusercontent.com/InTaVia/idm-rdf/main/idm-OWL/intavia_idm1.owl) at its current state (including ongoing discussions in the issues).
 
 ### Ingestion workflows / source datasets
 
 The repository https://github.com/InTaVia/source-dataset-conversion contains the milestone 3 versions of the following source datasets converted into the IDM data model:
 
-- Finland (Aalto / UH)
-- Austria (OeAW)
-- BiographyNet (VU)
+- [Finland](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/BS_dataset/bs2intavia.ttl) (Aalto / UH)
+- [Austria](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/APIS_dataset/apisdata_18-04-2022_edited.ttl) (OeAW)
+- [Netherlands](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/intavia_biographynet/data/rdf/intavia_idm1.ttl) (VU)
 
 and the conversion scripts for the datasets:
 
-- Austria (OeAW)
-- BiographyNet (VU)
+- [Austria](https://github.com/InTaVia/source-dataset-conversion/tree/main/APIS_dataset) (OeAW)
+- [Netherlands](https://github.com/InTaVia/source-dataset-conversion/tree/main/intavia_biographynet) (VU)
 
 ### JSON API
 
@@ -32,20 +36,17 @@ The repository https://github.com/InTaVia/grlc_sparql contains the milestone 3 v
 * Generic entity search
 * Person history
 
-**InTaVia graph-related workflows?**
-- v1
-- v2
-- v3
+The testversion of the API is available under https://grlc.acdh-dev.oeaw.ac.at/api/InTaVia/grlc_sparql#/
 
-## WP3
 
-**Conversion Pipeline APIS data**
+### Researchspace for internal usage
 
-**Ingestion pipeline**
+In addition to the resources mentioned above we set up a [researchspace instance](https://mp-playground.acdh-dev.oeaw.ac.at/) that is meant for internal work on and exploration of the knowledge graph. This service is currently for internal use only.
 
-**Basic enrichment pipeline for CH data**
+### Prefect workflow component
 
-**API definitions**
+We deployed prefect within the ACDH-CH kubernetes cluster to run conversion, enrichment and ingestion scripts on the cluster. Given that the open-source version of this software solution doesnt come with authentication built in, this component is currently only reachable from within ACDH-CH subnet. Given some delay in our original planning the scripts are currently still executed locally instead of running within prefect. 
+
 
 ## WP4
 
