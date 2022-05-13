@@ -50,8 +50,8 @@ We deployed prefect within the ACDH-CH kubernetes cluster to run conversion, enr
 
 ## WP4
 
-- Martin's Work > Deliverable 4.2
-- Performancer: Model selection & comparison
+The milestone 3 version of our interactive text mining environment can be found [here](https://github.com/InTaVia/Performancer_AnnoXplorer/releases/tag/v1.0.0). It consists of two connected components, *Performancer* and *AnnoXplorer*, providing an overview and detail view on the data respectively; brushing over texts in the former displays them in the latter. 
+
 
 ## Frontend (WP5 & WP6)
 
