@@ -12,31 +12,26 @@ Individual components of the system operational with connectivity partially esta
 
 ### Datamodel InTaVia IDM-RDF
 
-The repository https://github.com/InTaVia/idm-rdf comtains the [IDM-RDF](https://raw.githubusercontent.com/InTaVia/idm-rdf/main/idm-OWL/intavia_idm1.owl) at its current state (including ongoing discussions in the issues).
+The repository https://github.com/InTaVia/idm-rdf contains the [IDM-RDF](https://raw.githubusercontent.com/InTaVia/idm-rdf/main/idm-OWL/intavia_idm1.owl) at its current state (including ongoing discussions in the issues).
 
 ### Ingestion workflows / source datasets
 
-The repository https://github.com/InTaVia/source-dataset-conversion contains the milestone 3 versions of the following source datasets converted into the IDM data model:
+The repository https://github.com/InTaVia/source-dataset-conversion contains the conversion scripts and the datasets in the IDM data model at their current state for the following prosopographical source datasets:
 
 - [Finland](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/BS_dataset/bs2intavia.ttl) (Aalto / UH)
 - [Austria](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/APIS_dataset/apisdata_18-04-2022_edited.ttl) (OeAW)
 - [Netherlands](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/intavia_biographynet/data/rdf/bionet_all_data.ttl) (VU)
 
-and the conversion scripts for the datasets:
-
-- [Austria](https://github.com/InTaVia/source-dataset-conversion/tree/main/APIS_dataset) (OeAW)
-- [Netherlands](https://github.com/InTaVia/source-dataset-conversion/tree/main/intavia_biographynet) (VU)
-
 ### JSON API
 
-The repository https://github.com/InTaVia/grlc contains the milestone 3 version of the grlc software that is used for providing the JSON API.
+The repository https://github.com/InTaVia/grlc contains the grlc software, that is used for providing the JSON API, at its current state.
 
-The repository https://github.com/InTaVia/grlc_sparql contains the milestone 3 version of the JSON API definitions, namely the following APIs:
+The repository https://github.com/InTaVia/grlc_sparql contains the JSON API definitions at their current state, namely the following APIs:
 
 * Generic entity search
 * Person history
 
-The testversion of the API is available under https://grlc.acdh-dev.oeaw.ac.at/api/InTaVia/grlc_sparql#/
+The test version of the API is available under https://grlc.acdh-dev.oeaw.ac.at/api/InTaVia/grlc_sparql#/
 
 
 ### Researchspace for internal usage
