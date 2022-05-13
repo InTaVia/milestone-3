@@ -20,7 +20,7 @@ The repository https://github.com/InTaVia/source-dataset-conversion contains the
 
 - [Finland](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/BS_dataset/bs2intavia.ttl) (Aalto / UH)
 - [Austria](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/APIS_dataset/apisdata_18-04-2022_edited.ttl) (OeAW)
-- [Netherlands](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/intavia_biographynet/data/rdf/intavia_idm1.ttl) (VU)
+- [Netherlands](https://raw.githubusercontent.com/InTaVia/source-dataset-conversion/main/intavia_biographynet/data/rdf/bionet_all_data.ttl) (VU)
 
 and the conversion scripts for the datasets:
 
