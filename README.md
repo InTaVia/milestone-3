@@ -56,22 +56,26 @@ The prototype implements aspects of the three top-level components (Data Curatio
 ### VA studio
 Data views:
 - Timeline view showing a set of person entities with selected life events (e.g. birth, death, lived): [https://intavia.acdh-dev.oeaw.ac.at/timeline](https://intavia.acdh-dev.oeaw.ac.at/timeline)
-- A geographic map view showing localized life events (i.e., birth and death) connected with a line in a chronological order: [https://intavia.acdh-dev.oeaw.ac.at/geomap](https://intavia.acdh-dev.oeaw.ac.at/geomap)
+- A geographic map view showing localized life events (i.e., birth and death) connected with a line: [https://intavia.acdh-dev.oeaw.ac.at/geomap](https://intavia.acdh-dev.oeaw.ac.at/geomap)
 
 Coordinated views:
 - Multiple views integrated on a single page are shown here: [https://intavia.acdh-dev.oeaw.ac.at/coordination](https://intavia.acdh-dev.oeaw.ac.at/coordination)
-- list-timeline-map highlighting
+- The example coordinates a entity list view, a timeline and a map showing perons and their life events throuhg mouseover highlighting (red colour).
+- Currently, applies only to the map, a dropdown menue allows to filter the depicted events. If more than one event type is selected, the localized events are connected with lines in chronological order.
 
 Visual querying:
-- query for persons based on attribute constraints including name and date of birth and death: 
+- A workspace to visually query for persons based on attribute constraints including name and date of birth and death: [https://intavia.acdh-dev.oeaw.ac.at/visual-querying](https://intavia.acdh-dev.oeaw.ac.at/visual-querying)
 
 ### ST suite = ST creator + ST viewer
-- Definition of GUI structure for storytelling editor
-- Development of clickable prototype (Fluxguide - online?)
+- Definition of GUI structure for ST creator: [https://intavia.acdh-dev.oeaw.ac.at/timeline](https://intavia.acdh-dev.oeaw.ac.at/timeline)
+- -...
 - A clickable Adobe XD prototype of the ST viewer is available online: [https://xd.adobe.com/view/b3de8bf3-1e43-434a-b06f-a99939eb2e6e-e68d](https://xd.adobe.com/view/b3de8bf3-1e43-434a-b06f-a99939eb2e6e-e68d)
+- ...
 
 ## Next Steps
 - Establish the connection between the backend and the frontend.
+- Integrate the shared aspects between the VA studio and the ST creator.
+- Establish the connection between the ST creator and ST viewer.
 - Finalize the response shape of the endpoints an the frontend data schema.
 - Integratge the different components in a joint user interface with panels to better support user workflows (and not on seperate pages).
 - Prepair the protoype for evaluation (Workshops in August 2022)
