@@ -46,7 +46,7 @@ The data shown in the application are automatically generated mock data includin
 The prototype implements aspects of the three top-level components (Data Curation Lab, DC lab; Visual Analytics Studio, VA studio; Visual Storytelling Suite, ST suite) in a single applications on separate pages. The components implented are:
 
 ### DC lab
-"DC Lab:
+
 - Keyword search and list view of search results: [https://intavia.acdh-dev.oeaw.ac.at/search](https://intavia.acdh-dev.oeaw.ac.at/search)
 - Detail view of entities: e.g., [https://intavia.acdh-dev.oeaw.ac.at/person/876859d3-dee8-468d-9c61-a29e97ef478a](https://intavia.acdh-dev.oeaw.ac.at/person/876859d3-dee8-468d-9c61-a29e97ef478a)
 - Basic editing compatibilties of person entities (name, description, event types & dates) - click edit on the detail view page.
