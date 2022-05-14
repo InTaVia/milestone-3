@@ -4,9 +4,6 @@ InTaVia Milestone 3 Documentation - Basic Operational System
 
 Individual components of the system operational with connectivity partially established and ready for evaluation by WP7.
 
-**_What is part of the system at MS3? Document parts here with description of compontents and relations between them + URLs_**
-
-**_Please create releases of the GitHub repositories and link here_**
 
 ## Backend (WP2 & 3)
 
