@@ -45,6 +45,10 @@ We deployed prefect within the ACDH-CH kubernetes cluster to run conversion, enr
 
 ## WP4
 
+### NLP Abbreviations
+We include the code to train an *abbreviation identification* classifier and to run an *abbreviation expansion* generator, both based on pre-trained transformer language models. The code can be found [here](https://github.com/InTaVia/nlp-abbreviations/releases/tag/v0.1). This is the preliminary version, where we test the concept on a small gold-standard slovene dataset (for now, a separate request for the dataset is required). More thorough evaluation and expansion of the experiments to Dutch and German coming soon.
+
+### NLP Visualization
 The milestone 3 version of our interactive text mining environment can be found [here](https://github.com/InTaVia/Performancer_AnnoXplorer/releases/tag/v1.0.0). It consists of two connected components, *Performancer* and *AnnoXplorer*, providing an overview and detail view on the data respectively; brushing over texts in the former displays them in the latter. 
 
 
